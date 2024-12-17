@@ -1,0 +1,77 @@
+{
+    "sections": {
+      "1": {                    
+        "text": "You wake up in a dark room with no memory of how you got there. There's a faint light coming from under the door.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you want to try the door handle, turn to 2.",
+            "section": "2"
+          }
+        ]
+      },
+      "2": {
+        "text": "You try the door handle, but it's locked. You need to find a key.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you want to search the room for a key, turn to 4.",
+            "section": "4"
+          }
+        ]
+      },
+      "3": {
+        "text": "You look around and notice a small window high on the wall. It seems to be your only way out.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you decide to continue searching the room, turn to 4.",
+            "section": "4"
+          }
+        ]
+      },
+      "4": {
+        "text": "You search the room and find a hidden compartment in the desk with a key inside.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you want to use the key to unlock the door, turn to 7.",
+            "section": "7"
+          }
+        ]
+      },
+      "5": {
+        "text": "You wait for what seems like hours, but no one comes. You realize you need to find another way out.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you want to try to reach the window, turn to 6.",
+            "section": "6"
+          }
+        ]
+      },
+      "6": {
+        "text": "You manage to reach the window and open it. You climb out and escape to freedom.",
+        "end": true
+      },
+      "7": {
+        "text": "You unlock the door and escape to freedom.",
+        "end": true
+      },
+      "8": {
+        "text": "You keep searching but find no other way out. You decide to try the key on the door.",
+        "end": false,
+        "choices": [
+          {
+            "text": "If you decide to keep searching, turn to 9.",
+            "section": "9"
+          }
+        ]
+      },
+      "9": {
+        "text": "You keep searching but find nothing. You realize you have no other choice but to use the key on the door.",
+        "end": true
+      }
+    }
+  }
+  
